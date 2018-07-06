@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rv.musicapp_xylophone.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/but1"
+        android:onClick="playA"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#f20625"
+        android:layout_marginLeft="2sp"
+        android:layout_marginRight="2sp"
+        android:layout_marginTop="2sp"/>
+
+    <Button
+        android:onClick="playB"
+        android:id="@+id/but2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ed692b"
+        android:layout_marginLeft="7sp"
+        android:layout_marginRight="7sp"
+        android:layout_marginTop="4sp"/>
+
+    <Button
+        android:onClick="playC"
+        android:id="@+id/but3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ead515"
+        android:layout_marginLeft="12sp"
+        android:layout_marginRight="12sp"
+        android:layout_marginTop="4sp"/>
+
+    <Button
+        android:onClick="playD"
+        android:id="@+id/but4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#09f931"
+        android:layout_marginLeft="17sp"
+        android:layout_marginRight="17sp"
+        android:layout_marginTop="4sp"/>
+
+    <Button
+        android:onClick="playE"
+        android:id="@+id/but5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#68fdce"
+        android:layout_marginLeft="22sp"
+        android:layout_marginRight="22sp"
+        android:layout_marginTop="4sp"/>
+
+    <Button
+        android:onClick="playF"
+        android:id="@+id/but6"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#09276c"
+        android:layout_marginLeft="27sp"
+        android:layout_marginRight="27sp"
+        android:layout_marginTop="4sp"/>
+
+</LinearLayout>
+</RelativeLayout>
